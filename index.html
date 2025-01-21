@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,25 +19,32 @@
         </nav>
     </header>
 
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you! Please fill out the form below to get in touch with us.</p>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to our website! We are a team of passionate professionals committed to providing the best services for our clients.</p>
 
-        <form action="submit_contact.php" method="POST">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
+        <h2>Our Mission</h2>
+        <p>Our mission is to deliver high-quality services that exceed our clients' expectations. We strive for excellence in everything we do, and we are dedicated to making a positive impact in the industry.</p>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
-
-            <input type="submit" value="Send Message">
-        </form>
+        <h2>Our Team</h2>
+        <p>Our team is made up of skilled professionals who bring a wealth of experience and expertise. We work collaboratively to solve problems and deliver innovative solutions.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>CEO &amp; Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="team3.jpg" alt="Team Member 3">
+                <h3>Sarah Lee</h3>
+                <p>Marketing Director</p>
+            </div>
+        </div>
     </section>
 
     <footer>
