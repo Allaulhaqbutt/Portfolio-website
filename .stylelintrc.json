@@ -6,5 +6,5 @@
     "value-keyword-case": "lower",
     "selector-type-case": "lower",
     "block-no-empty": true
-  }
+           }
 }
