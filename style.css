@@ -51,7 +51,7 @@ section h1, section h2 {
     color: #333;
 }
 
-#home {
+#home, #about {
     background-color: #fff;
     text-align: center;
     border-radius: 8px;
@@ -60,10 +60,9 @@ section h1, section h2 {
 
 #about {
     background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Services Section */
 #services ul {
     list-style-type: none;
     margin-top: 20px;
