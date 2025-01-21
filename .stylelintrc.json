@@ -1,13 +1,11 @@
-
 {
-  "rules": {
-    "declaration-block-no-duplicate-properties": true,
-    "no-duplicate-selectors": true,
-    "value-keyword-case": "lower",
-    "selector-type-case": "lower",
-    "block-no-empty": true
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "color-no-invalid-hex": true,
+      "declaration-colon-space-after": "always",
+      "declaration-colon-space-before": "never",
+      "block-no-empty": true,
+      "unit-no-unknown": true,
+      "selector-pseudo-class-no-unknown": true
+    }
   }
-}
-
-
-
