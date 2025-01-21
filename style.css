@@ -117,8 +117,10 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-.project-item .btn:hover {
+.project-item .btn:hover,
+.project-item .btn:focus {
     background-color: #555;
+    outline: none;  /* Ensures focus state is visible */
 }
 
 /* Footer Styling */
@@ -129,4 +131,14 @@ footer {
     color: white;
     margin-top: 40px;
     border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #projects h1 {
+        font-size: 28px;
+    }
+    .project-item h3 {
+        font-size: 20px;
+    }
 }
