@@ -1,11 +1,7 @@
 {
     "tagname-lowercase": true,
     "attr-lowercase": true,
-    "attr-value-double-quotes": true,
-    "doctype-first": true,
-    "tag-pair": true,
-    "tag-self-close": false,
+    "alt-require": true,
     "id-unique": true,
-    "head-req-title": true
+    "tag-pair": true
   }
-  

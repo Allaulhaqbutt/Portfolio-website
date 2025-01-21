@@ -6,5 +6,10 @@
     "value-keyword-case": "lower",
     "selector-type-case": "lower",
     "block-no-empty": true
+<<<<<<< HEAD
            }
 }
+=======
+  }
+
+>>>>>>> 0cc7de96928d5517336e728f0666a1befb7dc60a
